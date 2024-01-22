@@ -1,7 +1,7 @@
 from django.db import models
 from django.contrib.auth.models import User
 
-BLOG_STATUS=
+BLOG_STATUS=[]
 
 # Create your models here.
 class Todo(models.Model):
