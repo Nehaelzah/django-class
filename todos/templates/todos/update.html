@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>update</title>
+</head>
+<body>
+    <h1>From template</h1>
+    {% if not in todos%}
+    <h1>No Todos Found</h1>
+    {% endif %}
+    {%for x in todos %}
+    <p>{{x.todo}}</p>
+    <a href="{%url}"></a>
+    {% endfor %}
+</body>
+</html>
